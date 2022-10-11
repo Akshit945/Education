@@ -34,6 +34,17 @@ footer{
   padding-right: 50px;
   padding-bottom: 45px;
 }
+/* rearrangement of middle photo and paragraph */
+@media (max-width: 991px) {
+
+  .re-order .row .first {
+    order: 2;
+  }
+  .re-order .row .second {
+    order: 1;
+  }
+}
+
 /* teachr */
 .row.heading h2 {
   color: #fff;
